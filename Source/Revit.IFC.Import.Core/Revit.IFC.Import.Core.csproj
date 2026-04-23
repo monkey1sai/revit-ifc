@@ -9,7 +9,7 @@
    </ItemGroup>
    <ItemGroup>
      <Reference Include="RevitAPI">
-       <HintPath>..\..\..\API\2026\RevitAPI.dll</HintPath>
+       <HintPath>$(RevitAPIDir)\RevitAPI.dll</HintPath>
      </Reference>
    </ItemGroup>
   <Import Project="$(SolutionDir)VSProps\Revit.CSharp.Sdk.targets" />

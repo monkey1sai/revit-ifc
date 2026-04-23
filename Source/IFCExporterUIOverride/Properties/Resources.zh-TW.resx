@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExportBaseQuantities" xml:space="preserve">
+    <value>匯出基本數量 (Base Quantities)</value>
+  </data>
+  <data name="ExportPlanViewElements" xml:space="preserve">
+    <value>匯出 2D 平面視圖元素</value>
+  </data>
+  <data name="ExportRevitPropertySets" xml:space="preserve">
+    <value>匯出 Revit 屬性集</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>檔案類型</value>
+  </data>
+  <data name="FileVersion" xml:space="preserve">
+    <value>檔案版本</value>
+  </data>
+  <data name="IFCMVD2x3CV2" xml:space="preserve">
+    <value>IFC 2x3 Coordination View 2.0</value>
+  </data>
+  <data name="IFCMVDGSA" xml:space="preserve">
+    <value>IFC 2x3 GSA Concept Design BIM 2010</value>
+    <comment>Used by the United States General Services Administration</comment>
+  </data>
+  <data name="IFCVersion2x2" xml:space="preserve">
+    <value>IFC 2x2 Coordination View</value>
+  </data>
+  <data name="IFCVersion2x3" xml:space="preserve">
+    <value>IFC 2x3 Coordination View</value>
+  </data>
+  <data name="IFCVersionUnrecognized" xml:space="preserve">
+    <value>無法辨識的 IFC 版本</value>
+  </data>
+  <data name="IncludeSpaceBoundaries" xml:space="preserve">
+    <value>包含空間邊界</value>
+  </data>
+  <data name="InSessionConfiguration" xml:space="preserve">
+    <value>&lt;工作階段設定&gt;</value>
+  </data>
+  <data name="SpaceBoundaries" xml:space="preserve">
+    <value>空間邊界</value>
+  </data>
+  <data name="SpaceBoundaries1stLevel" xml:space="preserve">
+    <value>第 1 級</value>
+  </data>
+  <data name="SpaceBoundaries2ndLevel" xml:space="preserve">
+    <value>第 2 級</value>
+  </data>
+  <data name="SpaceBoundariesNone" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="SpaceBoundariesUnrecognized" xml:space="preserve">
+    <value>無法辨識的空間邊界等級</value>
+  </data>
+  <data name="UseFamilyAndTypeNameForReferences" xml:space="preserve">
+    <value>使用族群與類型名稱作為參考</value>
+  </data>
+  <data name="ExportVisibleElementsInView" xml:space="preserve">
+    <value>僅匯出視圖中可見的元素</value>
+  </data>
+  <data name="ExportPartsAsBuildingElements" xml:space="preserve">
+    <value>將零件匯出為建築元素</value>
+  </data>
+  <data name="ExportIFCCommonPropertySets" xml:space="preserve">
+    <value>匯出 IFC 通用屬性集</value>
+  </data>
+  <data name="IFCMVDFMHandOver" xml:space="preserve">
+    <value>IFC 2x3 Basic FM Handover View</value>
+  </data>
+  <data name="ExportBoundingBox" xml:space="preserve">
+    <value>匯出外框邊界盒 (Bounding Box)</value>
+  </data>
+  <data name="ExportSchedulesAsPsets" xml:space="preserve">
+    <value>將明細表匯出為屬性集</value>
+  </data>
+  <data name="IncludeIfcSiteElevation" xml:space="preserve">
+    <value>在基地本地放置原點中包含 IFCSite 標高</value>
+  </data>
+  <data name="UseCoarseTessellation" xml:space="preserve">
+    <value>部分 BRep 使用粗略鑲嵌</value>
+  </data>
+  <data name="StoreIFCGUID" xml:space="preserve">
+    <value>匯出後將 IFC GUID 儲存於元素參數</value>
+  </data>
+  <data name="IFCMVD4CV2" xml:space="preserve">
+    <value>IFC 4 Coordination View 2.0</value>
+  </data>
+  <data name="PropertySets" xml:space="preserve">
+    <value>屬性集</value>
+  </data>
+  <data name="PropertySetsIFCCommon" xml:space="preserve">
+    <value>僅 IFC 通用</value>
+  </data>
+  <data name="PropertySetsInternalRevit" xml:space="preserve">
+    <value>僅 Revit 內部</value>
+  </data>
+  <data name="PropertySetsNone" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="PropertySetsRevitPlusIFC" xml:space="preserve">
+    <value>Revit 內部、IFC 通用</value>
+  </data>
+  <data name="PropertySetsSchedules" xml:space="preserve">
+    <value>僅明細表</value>
+  </data>
+  <data name="PropertySetsSchedulesPlusRevit" xml:space="preserve">
+    <value>Revit 內部、明細表</value>
+  </data>
+  <data name="PropertySetsSchedulesPlusIFC" xml:space="preserve">
+    <value>IFC 通用、明細表</value>
+  </data>
+  <data name="PropertySetsSchedulesPlusRevitPlusIFC" xml:space="preserve">
+    <value>Revit 內部、IFC 通用、明細表</value>
+  </data>
+  <data name="PropertySetsUnrecognized" xml:space="preserve">
+    <value>無法辨識的屬性集</value>
+  </data>
+  <data name="ActivePhase" xml:space="preserve">
+    <value>要匯出的階段</value>
+  </data>
+  <data name="DefaultPhase" xml:space="preserve">
+    <value>預設匯出階段</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>預設 ({0})</value>
+  </data>
+  <data name="PropertySetsIFCCommonPlusUserDefined" xml:space="preserve">
+    <value>IFC 通用、使用者自訂</value>
+  </data>
+  <data name="PropertySetsInternalRevitPlusUserDefined" xml:space="preserve">
+    <value>Revit 內部、使用者自訂</value>
+  </data>
+  <data name="PropertySetsRevitPlusIFCPlusUserDefined" xml:space="preserve">
+    <value>Revit 內部、IFC 通用、使用者自訂</value>
+  </data>
+  <data name="PropertySetsSchedulesPlusIFCPlusUserDefined" xml:space="preserve">
+    <value>IFC 通用、明細表、使用者自訂</value>
+  </data>
+  <data name="PropertySetsSchedulesPlusRevitPlusIFCPlusUserDefined" xml:space="preserve">
+    <value>Revit 內部、IFC 通用、明細表、使用者自訂</value>
+  </data>
+  <data name="PropertySetsSchedulesPlusRevitPlusUserDefined" xml:space="preserve">
+    <value>Revit 內部、明細表、使用者自訂</value>
+  </data>
+  <data name="PropertySetsSchedulesPlusUserDefined" xml:space="preserve">
+    <value>明細表、使用者自訂</value>
+  </data>
+  <data name="PropertySetsUserDefined" xml:space="preserve">
+    <value>僅使用者自訂</value>
+  </data>
+  <data name="ExportLinkedFiles" xml:space="preserve">
+    <value>將連結檔案匯出為獨立 IFC</value>
+  </data>
+  <data name="ExportUserDefinedPsetsFileName" xml:space="preserve">
+    <value>使用者自訂屬性集檔案名稱</value>
+  </data>
+  <data name="UserDefinedParameterSets" xml:space="preserve">
+    <value>自訂參數集</value>
+    <comment>User Defined Parameter Sets</comment>
+  </data>
+  <data name="LinkInstanceExportCantCreateDoc" xml:space="preserve">
+    <value>無法為 ID 為 {0} 的連結實例建立暫存文件。</value>
+  </data>
+  <data name="LinkInstanceExportCantFindDoc" xml:space="preserve">
+    <value>找不到 ID 為 {0} 的連結實例文件。</value>
+  </data>
+  <data name="LinkInstanceExportErrorMain" xml:space="preserve">
+    <value>有 {0} 個連結實例無法匯出。</value>
+  </data>
+  <data name="LinkInstanceExportErrorPath" xml:space="preserve">
+    <value>ID 為 {0} 的連結實例路徑不存在。</value>
+  </data>
+  <data name="LinkInstanceExportNonConformal" xml:space="preserve">
+    <value>ID 為 {0} 的連結實例為非共形 (non-conformal)。</value>
+  </data>
+  <data name="LinkInstanceExportHasReflection" xml:space="preserve">
+    <value>ID 為 {0} 的連結實例含鏡射。若要匯出鏡射的連結實例，請先將連結幾何鏡射後，再於新文件中建立連結。</value>
+  </data>
+  <data name="LinkInstanceExportScaled" xml:space="preserve">
+    <value>ID 為 {0} 的連結實例經過縮放。</value>
+  </data>
+  <data name="IFCExport" xml:space="preserve">
+    <value>IFC 匯出</value>
+  </data>
+  <data name="IFCExportProcessError" xml:space="preserve">
+    <value>IFC 匯出處理發生錯誤：{0}。</value>
+  </data>
+  <data name="IFCExportProcessGenericError" xml:space="preserve">
+    <value>IFC 匯出處理發生錯誤。</value>
+  </data>
+  <data name="IFCExportGenericWarning" xml:space="preserve">
+    <value>IFC 匯出警告</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>專案地址...</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>地址第 1 行</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>地址第 2 行</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>進階</value>
+  </data>
+  <data name="AltUIVer" xml:space="preserve">
+    <value>替代 UI</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>應用程式名稱</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>指派...</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>授權</value>
+  </data>
+  <data name="AuthorsEMail" xml:space="preserve">
+    <value>作者電子郵件</value>
+  </data>
+  <data name="AuthorsName" xml:space="preserve">
+    <value>作者名稱</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>瀏覽 ...</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="Classification" xml:space="preserve">
+    <value>分類設定...</value>
+  </data>
+  <data name="ClassificationFieldName" xml:space="preserve">
+    <value>分類欄位名稱</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>國家/地區</value>
+  </data>
+  <data name="CurrentSelectedSetup" xml:space="preserve">
+    <value>匯出設定：</value>
+  </data>
+  <data name="DeleteOldSetups" xml:space="preserve">
+    <value>刪除舊的 IFC 匯出設定</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="DistributionPoint" xml:space="preserve">
+    <value>分發點</value>
+  </data>
+  <data name="DocumentationLocation" xml:space="preserve">
+    <value>文件位置</value>
+  </data>
+  <data name="Edition" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="EditionDate" xml:space="preserve">
+    <value>版本日期</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>匯出</value>
+  </data>
+  <data name="ExportElementsVisibleInView" xml:space="preserve">
+    <value>僅匯出目前視圖中可見的元素</value>
+  </data>
+  <data name="ExportInternalRevitPropertySets" xml:space="preserve">
+    <value>匯出 Revit 內部屬性集</value>
+  </data>
+  <data name="ExportSchedulesAsPropertySets" xml:space="preserve">
+    <value>將明細表匯出為屬性集</value>
+  </data>
+  <data name="ExportSolidModelsWhenPossible" xml:space="preserve">
+    <value>允許使用混合的 "Solid Model" 表現形式</value>
+  </data>
+  <data name="ExportUserDefinedPropertySets" xml:space="preserve">
+    <value>匯出使用者自訂屬性集</value>
+  </data>
+  <data name="FileDescription" xml:space="preserve">
+    <value>檔案描述</value>
+  </data>
+  <data name="FileHeader" xml:space="preserve">
+    <value>檔案標頭</value>
+  </data>
+  <data name="FileSchema" xml:space="preserve">
+    <value>檔案結構描述</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+  <data name="IFC" xml:space="preserve">
+    <value>IFC</value>
+  </data>
+  <data name="IFCAssignments" xml:space="preserve">
+    <value>IFC 指派</value>
+  </data>
+  <data name="IFCExt" xml:space="preserve">
+    <value>ifc</value>
+  </data>
+  <data name="IFCFiles" xml:space="preserve">
+    <value>IFC-SPF|*.ifc</value>
+  </data>
+  <data name="IFCMVDFMExtendedHandOver" xml:space="preserve">
+    <value>IFC2x3 COBie 2.4 Design Deliverable View</value>
+  </data>
+  <data name="IFCUnknown" xml:space="preserve">
+    <value>無法辨識的檔案類型選項</value>
+  </data>
+  <data name="IFCVersion" xml:space="preserve">
+    <value>IFC 版本</value>
+  </data>
+  <data name="IFCXML" xml:space="preserve">
+    <value>IFC XML</value>
+  </data>
+  <data name="IFCXMLExt" xml:space="preserve">
+    <value>ifcxml</value>
+  </data>
+  <data name="IFCXMLFiles" xml:space="preserve">
+    <value>Industry Foundation Classes XML(.ifcxml)|*.ifcxml</value>
+  </data>
+  <data name="IFCXMLZIP" xml:space="preserve">
+    <value>壓縮 IFC XML</value>
+  </data>
+  <data name="IFCXMLZIPExt" xml:space="preserve">
+    <value>ifczip</value>
+  </data>
+  <data name="IFCZIP" xml:space="preserve">
+    <value>壓縮 IFC</value>
+  </data>
+  <data name="IFCZIPExt" xml:space="preserve">
+    <value>ifczip</value>
+  </data>
+  <data name="IFCZIPFiles" xml:space="preserve">
+    <value>Zipped Industry Foundation Classes(.ifczip)|*.ifczip</value>
+  </data>
+  <data name="InternalAddress" xml:space="preserve">
+    <value>內部地址</value>
+  </data>
+  <data name="InternalLocation" xml:space="preserve">
+    <value>內部位置</value>
+  </data>
+  <data name="ManditoryFieldsNotEmpty" xml:space="preserve">
+    <value>名稱、來源或出版者、版本為必填欄位，不可為空。</value>
+  </data>
+  <data name="ModifySetup" xml:space="preserve">
+    <value>修改設定 ...</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="NewExportSetup" xml:space="preserve">
+    <value>新增匯出設定</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>新名稱</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>辦公室</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>組織</value>
+  </data>
+  <data name="OriginalName" xml:space="preserve">
+    <value>原始名稱</value>
+  </data>
+  <data name="PhaseToExport" xml:space="preserve">
+    <value>要匯出的階段</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>郵政信箱</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>郵遞區號</value>
+  </data>
+  <data name="Purpose" xml:space="preserve">
+    <value>用途</value>
+  </data>
+  <data name="RenameExportSetup" xml:space="preserve">
+    <value>重新命名匯出設定</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>基地</value>
+  </data>
+  <data name="SourceFileName" xml:space="preserve">
+    <value>來源檔案名稱</value>
+  </data>
+  <data name="SourcePublisher" xml:space="preserve">
+    <value>來源 (出版者)</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>州/省</value>
+  </data>
+  <data name="UnkownAltUIVer" xml:space="preserve">
+    <value>不明的替代 UI 版本</value>
+  </data>
+  <data name="UpdateExportSetups" xml:space="preserve">
+    <value>更新 IFC 匯出設定</value>
+  </data>
+  <data name="UpdateProjectAddress" xml:space="preserve">
+    <value>更新專案地址</value>
+  </data>
+  <data name="UpdateProjectInformation" xml:space="preserve">
+    <value>更新專案資訊</value>
+  </data>
+  <data name="UseCoarseTessellationForBReps" xml:space="preserve">
+    <value>部分 BRep 與輪廓使用粗略鑲嵌</value>
+  </data>
+  <data name="UserDefined" xml:space="preserve">
+    <value>使用者自訂</value>
+  </data>
+  <data name="UserDefinedPurpose" xml:space="preserve">
+    <value>使用者自訂用途</value>
+  </data>
+  <data name="UseRoomBoundariesForRoomVolume" xml:space="preserve">
+    <value>使用 2D 房間邊界計算房間體積</value>
+  </data>
+  <data name="VersionNumber" xml:space="preserve">
+    <value>版本編號</value>
+  </data>
+  <data name="ValueSetByExportOption" xml:space="preserve">
+    <value>...此值依匯出選項設定</value>
+  </data>
+  <data name="ValueSetOnExport" xml:space="preserve">
+    <value>...此值將在匯出時設定</value>
+  </data>
+  <data name="ClassificationAltName" xml:space="preserve">
+    <value>此分類選用的替代共用參數名稱（預設：ClassificationCode）</value>
+  </data>
+  <data name="ClassificationSystemEdition" xml:space="preserve">
+    <value>分類系統的版本編號</value>
+  </data>
+  <data name="ClassificationSystemName" xml:space="preserve">
+    <value>分類系統的名稱</value>
+  </data>
+  <data name="ClassificationSystemSource" xml:space="preserve">
+    <value>分類系統的來源或出版者</value>
+  </data>
+  <data name="CloneSetup" xml:space="preserve">
+    <value>依據所選設定建立新設定。</value>
+  </data>
+  <data name="CreateNewSetup" xml:space="preserve">
+    <value>建立新設定。</value>
+  </data>
+  <data name="DeleteSelectedSetup" xml:space="preserve">
+    <value>刪除所選設定。</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一步...</value>
+  </data>
+  <data name="RenameSelectedSetup" xml:space="preserve">
+    <value>重新命名所選設定。</value>
+  </data>
+  <data name="SaveSetupAndClose" xml:space="preserve">
+    <value>儲存設定並關閉 (&amp;amp;C)</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="ExportRoomsInView" xml:space="preserve">
+    <value>匯出 3D 視圖中的房間、區域與空間</value>
+  </data>
+  <data name="UseActiveViewForGeometry" xml:space="preserve">
+    <value>建立幾何時使用目前視圖</value>
+  </data>
+  <data name="UseActiveViewForGeometryTooltip" xml:space="preserve">
+    <value>使用目前視圖中的幾何匯出元素（如電纜橋架），產生較詳細的幾何。</value>
+  </data>
+  <data name="ExportSpecificSchedules" xml:space="preserve">
+    <value>僅匯出標題含 IFC、Pset 或 Common 的明細表</value>
+  </data>
+  <data name="MultipleFiles" xml:space="preserve">
+    <value>多個檔案</value>
+  </data>
+  <data name="TessellationDetails" xml:space="preserve">
+    <value>部分元素幾何的細節層級</value>
+  </data>
+  <data name="DetailLevelExtraLow" xml:space="preserve">
+    <value>特低</value>
+  </data>
+  <data name="DetailLevelHigh" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="DetailLevelLow" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="DetailLevelMedium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="CurrentOptions" xml:space="preserve">
+    <value>目前選項：</value>
+  </data>
+  <data name="ProjectToExport" xml:space="preserve">
+    <value>要匯出的專案：</value>
+  </data>
+  <data name="DefaultFileName" xml:space="preserve">
+    <value>專案</value>
+  </data>
+  <data name="SelectOneOrMoreProjects" xml:space="preserve">
+    <value>請至少選取一個要匯出的專案。</value>
+  </data>
+  <data name="Use2DRoomBoundariesForRoomVolume" xml:space="preserve">
+    <value>使用 2D 房間邊界計算房間體積</value>
+  </data>
+  <data name="UseFamilyAndTypeNameForReference" xml:space="preserve">
+    <value>使用族群與類型名稱作為參考</value>
+  </data>
+  <data name="IFCVersionSelected" xml:space="preserve">
+    <value>IFC 版本：</value>
+  </data>
+  <data name="DocNotSaved" xml:space="preserve">
+    <value>文件未儲存</value>
+  </data>
+  <data name="ExportUserDefinedParameterMappingTable" xml:space="preserve">
+    <value>匯出參數對應表</value>
+  </data>
+  <data name="UserDefinedParameterMappingTable" xml:space="preserve">
+    <value>自訂參數對應表</value>
+  </data>
+  <data name="IFC2x3FM" xml:space="preserve">
+    <value>IFC2x3 COBie 2.4 Design Deliverable View</value>
+  </data>
+  <data name="IFC4DTV" xml:space="preserve">
+    <value>IFC4 Design Transfer View [非官方]</value>
+  </data>
+  <data name="IFC4DTVWarning" xml:space="preserve">
+    <value>所選的匯出設定未受 buildingSMART International 支援。使用此設定產生的檔案可能無法於其他軟體使用。</value>
+  </data>
+  <data name="IFC4RV" xml:space="preserve">
+    <value>IFC4 Reference View</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>檔案名稱：</value>
+  </data>
+  <data name="ValidPathExists" xml:space="preserve">
+    <value>路徑不存在</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>{0} 已存在。要取代它嗎？</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>v.</value>
+  </data>
+  <data name="FileHeaderInformation" xml:space="preserve">
+    <value>檔案標頭資訊...</value>
+  </data>
+  <data name="LevelOfDetail" xml:space="preserve">
+    <value>細節層級</value>
+  </data>
+  <data name="SplitWallsColumsDuctsByLevel" xml:space="preserve">
+    <value>依樓層分割牆、柱、風管</value>
+  </data>
+  <data name="IFCXMLZIPFiles" xml:space="preserve">
+    <value>Zipped Industry Foundation Classes XML(.ifczip)|*.ifczip</value>
+  </data>
+  <data name="AdditionalContent" xml:space="preserve">
+    <value>額外內容</value>
+  </data>
+  <data name="AddressInformation" xml:space="preserve">
+    <value>專案地址</value>
+  </data>
+  <data name="ClassificationSetting" xml:space="preserve">
+    <value>分類設定</value>
+  </data>
+  <data name="ModifySetupTitle" xml:space="preserve">
+    <value>修改設定</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>如何指定匯出設定？</value>
+  </data>
+  <data name="ExportIFC" xml:space="preserve">
+    <value>匯出 IFC</value>
+  </data>
+  <data name="ER_Architecture" xml:space="preserve">
+    <value>建築參考交換 (Architectural Reference Exchange)</value>
+  </data>
+  <data name="ER_BuildingService" xml:space="preserve">
+    <value>機電參考交換 (MEP Reference Exchange)</value>
+  </data>
+  <data name="ER_Structural" xml:space="preserve">
+    <value>結構參考交換 (Structural Reference Exchange)</value>
+  </data>
+  <data name="ExchangeRequirement" xml:space="preserve">
+    <value>交換需求 (Exchange Requirement)</value>
+  </data>
+  <data name="ExportSelectedSetup" xml:space="preserve">
+    <value>儲存所選設定 ...</value>
+  </data>
+  <data name="InternalCoordinates" xml:space="preserve">
+    <value>內部原點</value>
+  </data>
+  <data name="LoadSetup" xml:space="preserve">
+    <value>匯入設定 ...</value>
+  </data>
+  <data name="ProjectBasePoint" xml:space="preserve">
+    <value>專案基準點</value>
+  </data>
+  <data name="ProjectOrigin" xml:space="preserve">
+    <value>坐標基準</value>
+  </data>
+  <data name="SiteSurveyPoint" xml:space="preserve">
+    <value>測量點</value>
+  </data>
+  <data name="BuildingDescription" xml:space="preserve">
+    <value>建築物描述</value>
+  </data>
+  <data name="BuildingName" xml:space="preserve">
+    <value>建築物名稱／編號</value>
+  </data>
+  <data name="BuildingType" xml:space="preserve">
+    <value>建築物類型</value>
+  </data>
+  <data name="CompanyEmail" xml:space="preserve">
+    <value>公司電子郵件</value>
+  </data>
+  <data name="CompanyInfo" xml:space="preserve">
+    <value>公司資訊</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>公司名稱</value>
+  </data>
+  <data name="CompanyPhone" xml:space="preserve">
+    <value>公司電話</value>
+  </data>
+  <data name="CompanyType" xml:space="preserve">
+    <value>公司類型</value>
+  </data>
+  <data name="ConfigurationFilePrefix" xml:space="preserve">
+    <value>IFC Configuration</value>
+  </data>
+  <data name="KeepTessellatedAsTriangulation" xml:space="preserve">
+    <value>將鑲嵌幾何保留為三角化</value>
+  </data>
+  <data name="ProjectDescription" xml:space="preserve">
+    <value>專案描述</value>
+  </data>
+  <data name="ProjectInfo" xml:space="preserve">
+    <value>專案資訊</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>專案名稱</value>
+  </data>
+  <data name="ProjectPhase" xml:space="preserve">
+    <value>專案階段</value>
+  </data>
+  <data name="SharedCoordinates" xml:space="preserve">
+    <value>共用坐標</value>
+  </data>
+  <data name="SiteDescription" xml:space="preserve">
+    <value>基地描述</value>
+  </data>
+  <data name="SiteLocation" xml:space="preserve">
+    <value>基地位置</value>
+  </data>
+  <data name="StreetAddress" xml:space="preserve">
+    <value>街道地址</value>
+  </data>
+  <data name="AssignAddressToBuilding" xml:space="preserve">
+    <value>將地址指派給建築物</value>
+  </data>
+  <data name="AssignAddressToSite" xml:space="preserve">
+    <value>將地址指派給基地</value>
+  </data>
+  <data name="IncludeSteelElements" xml:space="preserve">
+    <value>包含鋼構元素</value>
+  </data>
+  <data name="UseOnlyTriangulation" xml:space="preserve">
+    <value>將鑲嵌幾何保留為三角化</value>
+  </data>
+  <data name="IFC4" xml:space="preserve">
+    <value>IFC4 通用版</value>
+  </data>
+  <data name="UseTypeNameOnlyForIfcType" xml:space="preserve">
+    <value>IFCType 名稱僅使用類型名稱</value>
+  </data>
+  <data name="UseVisibleRevitNameAsEntityName" xml:space="preserve">
+    <value>使用可見的 Revit 名稱作為 IFCEntity 名稱</value>
+  </data>
+  <data name="ClassificationAltLocation" xml:space="preserve">
+    <value>文件位置 (通常為 URL)</value>
+  </data>
+  <data name="ReservedDeviceName" xml:space="preserve">
+    <value>{0} 是 Windows 保留的裝置名稱。請改用其他名稱後再試。</value>
+  </data>
+  <data name="OffsetDistanceTooLarge" xml:space="preserve">
+    <value>此模型中的元素距離匯出檔案原點極遠，可能導致接收端軟體顯示異常。建議改用專案基準點或測量點作為坐標基準。</value>
+  </data>
+  <data name="Eastings" xml:space="preserve">
+    <value>東距 (Eastings)</value>
+  </data>
+  <data name="EPSGCode" xml:space="preserve">
+    <value>EPSG 代碼</value>
+  </data>
+  <data name="GeodeticDatum" xml:space="preserve">
+    <value>大地基準 (Geodetic Datum)</value>
+  </data>
+  <data name="Northings" xml:space="preserve">
+    <value>北距 (Northings)</value>
+  </data>
+  <data name="ProjectedCRS" xml:space="preserve">
+    <value>投影坐標系統參考</value>
+  </data>
+  <data name="ProjectedCRSDesc" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="ProjectedCRSName" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="ResetToOriginals" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="AngleTrueNorth" xml:space="preserve">
+    <value>與真北的夾角</value>
+  </data>
+  <data name="Elevation" xml:space="preserve">
+    <value>標高</value>
+  </data>
+  <data name="GeoReference" xml:space="preserve">
+    <value>地理參考</value>
+  </data>
+  <data name="Override" xml:space="preserve">
+    <value>覆寫</value>
+  </data>
+  <data name="ProjectSite" xml:space="preserve">
+    <value>專案基地</value>
+  </data>
+  <data name="ResetConfigToolTip" xml:space="preserve">
+    <value>將設定還原為原始值</value>
+  </data>
+  <data name="ResetOverrideToolTip" xml:space="preserve">
+    <value>重設覆寫值</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>儲存變更</value>
+  </data>
+  <data name="SaveChangesTooltip" xml:space="preserve">
+    <value>將設定的變更儲存至文件</value>
+  </data>
+  <data name="ProjectInTN" xml:space="preserve">
+    <value>專案基準點朝向真北</value>
+  </data>
+  <data name="InternalCoordinatesInTN" xml:space="preserve">
+    <value>內部原點朝向真北</value>
+  </data>
+  <data name="ER_ArchitectureShort" xml:space="preserve">
+    <value>建築</value>
+  </data>
+  <data name="ER_BuildingServiceShort" xml:space="preserve">
+    <value>機電</value>
+  </data>
+  <data name="ER_StructuralShort" xml:space="preserve">
+    <value>結構</value>
+  </data>
+  <data name="IFCEntitySelection" xml:space="preserve">
+    <value>IFC 實體選取</value>
+  </data>
+  <data name="ExcludeEntitySelection" xml:space="preserve">
+    <value>要匯出的實體 ...</value>
+  </data>
+  <data name="IFCSchemaVersion" xml:space="preserve">
+    <value>IFC Schema 版本</value>
+  </data>
+  <data name="PredefinedTypeSelection" xml:space="preserve">
+    <value>PredefinedType 選取</value>
+  </data>
+  <data name="SelectSingleElement" xml:space="preserve">
+    <value>選取匯出為 IFC 實體</value>
+  </data>
+  <data name="DeleteOldConfiguration" xml:space="preserve">
+    <value>刪除舊的設定</value>
+  </data>
+  <data name="SaveConfigurationChanges" xml:space="preserve">
+    <value>儲存 IFC 匯出設定變更</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="MultipleAssignments" xml:space="preserve">
+    <value>所選物件中發現多項指派。</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>全部摺疊</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>全部展開</value>
+  </data>
+  <data name="HelpAssignIfcEntity" xml:space="preserve">
+    <value>如何指派 IFC 實體與 Predefined Type？</value>
+  </data>
+  <data name="HelpSelectEntityForExport" xml:space="preserve">
+    <value>IFC 實體選擇如何影響匯出？</value>
+  </data>
+  <data name="NoPredefinedType" xml:space="preserve">
+    <value>此實體沒有 predefined type</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ShowChecked" xml:space="preserve">
+    <value>已勾選的實體</value>
+  </data>
+  <data name="ShowUnchecked" xml:space="preserve">
+    <value>未勾選的實體</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>顯示</value>
+  </data>
+  <data name="LinkedFiles" xml:space="preserve">
+    <value>連結檔案</value>
+  </data>
+  <data name="LinkedFilesDontExport" xml:space="preserve">
+    <value>不匯出</value>
+  </data>
+  <data name="LinkedFilesSameProject" xml:space="preserve">
+    <value>匯出於同一個 IFCProject</value>
+  </data>
+  <data name="LinkedFilesSameSite" xml:space="preserve">
+    <value>匯出於同一個 IFCSite</value>
+  </data>
+  <data name="LinkedFilesSeparate" xml:space="preserve">
+    <value>匯出為獨立 IFC</value>
+  </data>
+  <data name="IFCVersion4x3" xml:space="preserve">
+    <value>IFC4x3 Reference View</value>
+  </data>
+  <data name="ExportMaterialPropertySets" xml:space="preserve">
+    <value>匯出材料屬性集</value>
+  </data>
+  <data name="IFCSG" xml:space="preserve">
+    <value>IFC-SG Regulatory Requirements View</value>
+  </data>
+  <data name="ExportHostsAsSingleEntity" xml:space="preserve">
+    <value>將面狀的樓板與屋頂一律匯出為單一 IFC 實體</value>
+  </data>
+  <data name="AddressInformationTooltip" xml:space="preserve">
+    <value>在此輸入值會將「用途」欄位重設為「USERDEFINED」。</value>
+  </data>
+  <data name="ExportHostAsSingleEntityTooltip" xml:space="preserve">
+    <value>勾選此選項時，除非匯出零件，否則不為樓板與屋頂建立容器。</value>
+  </data>
+  <data name="TriangulationOnlyTooltip" xml:space="preserve">
+    <value>若希望鑲嵌幾何保持為三角化面，或匯出效能受到影響時，可使用此選項。</value>
+  </data>
+  <data name="UseTypeNameOnlyTooltip" xml:space="preserve">
+    <value>使用此選項可讓 IFC type 名稱直接使用 Revit 類型名稱，不含族群名稱。</value>
+  </data>
+  <data name="UseVisibleRevitNameTooltip" xml:space="preserve">
+    <value>使用此選項可讓 IFC 實體名稱採用可見的 Revit 名稱。</value>
+  </data>
+  <data name="ExportMappingTemplates" xml:space="preserve">
+    <value>匯出對應範本</value>
+  </data>
+  <data name="IFCClass" xml:space="preserve">
+    <value>IFC 類別</value>
+  </data>
+  <data name="ManageIFCExportMappingSettings" xml:space="preserve">
+    <value>管理 IFC 匯出對應設定</value>
+  </data>
+  <data name="PredefinedType" xml:space="preserve">
+    <value>Predefined Type</value>
+  </data>
+  <data name="RevitCategory" xml:space="preserve">
+    <value>Revit 類別</value>
+  </data>
+  <data name="TemplateSettings" xml:space="preserve">
+    <value>範本設定</value>
+  </data>
+  <data name="UserDefinedType" xml:space="preserve">
+    <value>使用者自訂類型</value>
+  </data>
+  <data name="FacilityBridge" xml:space="preserve">
+    <value>橋梁 (IfcBridge)</value>
+  </data>
+  <data name="FacilityBuilding" xml:space="preserve">
+    <value>建築物 (IfcBuilding)</value>
+  </data>
+  <data name="FacilityMarineFacility" xml:space="preserve">
+    <value>海事設施 (IfcMarineFacility)</value>
+  </data>
+  <data name="FacilityRailway" xml:space="preserve">
+    <value>鐵路 (IfcRailway)</value>
+  </data>
+  <data name="FacilityRoad" xml:space="preserve">
+    <value>道路 (IfcRoad)</value>
+  </data>
+  <data name="FacilityType" xml:space="preserve">
+    <value>設施類型</value>
+  </data>
+  <data name="BridgeArched" xml:space="preserve">
+    <value>拱橋 (ARCHED)</value>
+  </data>
+  <data name="BridgeCableStayed" xml:space="preserve">
+    <value>斜張橋 (CABLESTAYED)</value>
+  </data>
+  <data name="BridgeCantilever" xml:space="preserve">
+    <value>懸臂橋 (CANTILEVER)</value>
+  </data>
+  <data name="BridgeCulvert" xml:space="preserve">
+    <value>涵洞 (CULVERT)</value>
+  </data>
+  <data name="BridgeFramework" xml:space="preserve">
+    <value>剛構橋 (FRAMEWORK)</value>
+  </data>
+  <data name="BridgeGirder" xml:space="preserve">
+    <value>梁橋 (GIRDER)</value>
+  </data>
+  <data name="BridgeSuspension" xml:space="preserve">
+    <value>吊橋 (SUSPENSION)</value>
+  </data>
+  <data name="BridgeTruss" xml:space="preserve">
+    <value>桁架橋 (TRUSS)</value>
+  </data>
+  <data name="FacilityPredefinedType" xml:space="preserve">
+    <value>設施預定義類型</value>
+  </data>
+  <data name="MarineFacilityBarrierBeach" xml:space="preserve">
+    <value>海堤灘地 (BARRIERBEACH)</value>
+  </data>
+  <data name="MarineFacilityBreakwater" xml:space="preserve">
+    <value>防波堤 (BREAKWATER)</value>
+  </data>
+  <data name="MarineFacilityCanal" xml:space="preserve">
+    <value>運河 (CANAL)</value>
+  </data>
+  <data name="MarineFacilityDryDock" xml:space="preserve">
+    <value>乾塢 (DRYDOCK)</value>
+  </data>
+  <data name="MarineFacilityFloatingDock" xml:space="preserve">
+    <value>浮塢 (FLOATINGDOCK)</value>
+  </data>
+  <data name="MarineFacilityHydrolift" xml:space="preserve">
+    <value>船舶升降機 (HYDROLIFT)</value>
+  </data>
+  <data name="MarineFacilityJetty" xml:space="preserve">
+    <value>突堤碼頭 (JETTY)</value>
+  </data>
+  <data name="MarineFacilityLaunchRecovery" xml:space="preserve">
+    <value>下水回收設施 (LAUNCHRECOVERYFACILITY)</value>
+  </data>
+  <data name="MarineFacilityMarineDefense" xml:space="preserve">
+    <value>海岸防護 (MARINEDEFENCE)</value>
+  </data>
+  <data name="MarineFacilityNavigationalChannel" xml:space="preserve">
+    <value>航道 (NAVIGATIONALCHANNEL)</value>
+  </data>
+  <data name="MarineFacilityPort" xml:space="preserve">
+    <value>港口 (PORT)</value>
+  </data>
+  <data name="MarineFacilityQuay" xml:space="preserve">
+    <value>碼頭 (QUAY)</value>
+  </data>
+  <data name="MarineFacilityRevetment" xml:space="preserve">
+    <value>護岸 (REVETMENT)</value>
+  </data>
+  <data name="MarineFacilityShipLift" xml:space="preserve">
+    <value>船舶升降機 (SHIPLIFT)</value>
+  </data>
+  <data name="MarineFacilityShipLock" xml:space="preserve">
+    <value>船閘 (SHIPLOCK)</value>
+  </data>
+  <data name="MarineFacilityShipyard" xml:space="preserve">
+    <value>造船廠 (SHIPYARD)</value>
+  </data>
+  <data name="MarineFacilitySlipway" xml:space="preserve">
+    <value>船台 (SLIPWAY)</value>
+  </data>
+  <data name="MarineFacilityWaterway" xml:space="preserve">
+    <value>水道 (WATERWAY)</value>
+  </data>
+  <data name="MarineFacilityWaterwayShiplift" xml:space="preserve">
+    <value>水道船舶升降機 (WATERWAYSHIPLIFT)</value>
+  </data>
+  <data name="NotDefined" xml:space="preserve">
+    <value>未定義</value>
+  </data>
+  <data name="ModifyIFCCategoryMapping" xml:space="preserve">
+    <value>修改 IFC 類別對應範本</value>
+  </data>
+  <data name="OwnerHistoryLastModified" xml:space="preserve">
+    <value>將「Last Modified」使用者設為專案資訊中的作者</value>
+  </data>
+  <data name="OwnerHistoryLastModifiedTooltip" xml:space="preserve">
+    <value>以專案資訊中的作者填入 IfcOwnerHistory 的「LastModified」屬性。</value>
+  </data>
+  <data name="CategoryMapping" xml:space="preserve">
+    <value>類別對應</value>
+  </data>
+  <data name="Ellipses" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ByCategory" xml:space="preserve">
+    <value>&lt;依類別&gt;</value>
+  </data>
+  <data name="ByCategoryNoBrackets" xml:space="preserve">
+    <value>依類別</value>
+  </data>
+  <data name="ExportCategoryMappingDialogName" xml:space="preserve">
+    <value>匯出 IFC 類別對應</value>
+  </data>
+  <data name="ExportCategoryMappingFilter" xml:space="preserve">
+    <value>IFC Category Mapping Files (*.txt)|*.txt</value>
+  </data>
+  <data name="CategoryMappingHelp" xml:space="preserve">
+    <value>如何修改 IFC 匯出對應設定？</value>
+  </data>
+  <data name="ImportCategoryMappingDialogName" xml:space="preserve">
+    <value>匯入 IFC 類別對應</value>
+  </data>
+  <data name="IFCNewTemplate" xml:space="preserve">
+    <value>新設定範本</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="TemplateName" xml:space="preserve">
+    <value>範本名稱</value>
+  </data>
+  <data name="IFCRenameTemplate" xml:space="preserve">
+    <value>重新命名</value>
+  </data>
+  <data name="RenamePreviousName" xml:space="preserve">
+    <value>原名</value>
+  </data>
+  <data name="RenameNewName" xml:space="preserve">
+    <value>新名</value>
+  </data>
+  <data name="IFCCopyTemplate" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="IFCDeleteTemplate" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>全部重設</value>
+  </data>
+  <data name="ResetToDefault" xml:space="preserve">
+    <value>將表格重設為 Revit 預設值</value>
+  </data>
+  <data name="IFCDeleteTemplateMessage" xml:space="preserve">
+    <value>要刪除 {0} 嗎？</value>
+  </data>
+  <data name="ResetRowToDefault" xml:space="preserve">
+    <value>將此列重設為 Revit 預設值</value>
+  </data>
+  <data name="TemplateNameTooltip" xml:space="preserve">
+    <value>請輸入唯一的範本名稱。</value>
+  </data>
+  <data name="CopyTemplateTooltip" xml:space="preserve">
+    <value>複製範本</value>
+  </data>
+  <data name="CreateNewTemplateTooltip" xml:space="preserve">
+    <value>建立新範本</value>
+  </data>
+  <data name="DeleteTemplateTooltip" xml:space="preserve">
+    <value>刪除範本</value>
+  </data>
+  <data name="ExportTemplateTooltip" xml:space="preserve">
+    <value>匯出範本</value>
+  </data>
+  <data name="ImportTemplateTooltip" xml:space="preserve">
+    <value>匯入範本</value>
+  </data>
+  <data name="MoreTooltip" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="RenameTemplateTooltip" xml:space="preserve">
+    <value>重新命名範本</value>
+  </data>
+  <data name="SaveTemplateTooltip" xml:space="preserve">
+    <value>儲存對範本的變更</value>
+  </data>
+  <data name="SelectedCheckboxTooltip" xml:space="preserve">
+    <value>已選取的類別將會被匯出</value>
+  </data>
+  <data name="IFCInvalidCategoryMappingFile" xml:space="preserve">
+    <value>此為無效的類別對應檔案。</value>
+  </data>
+  <data name="IFCExportProcessNoWriteAccess" xml:space="preserve">
+    <value>無法寫入 {0}，因為它是唯讀或由其他人擁有。</value>
+  </data>
+  <data name="ExportCeilingGrids" xml:space="preserve">
+    <value>匯出天花板格線</value>
+  </data>
+  <data name="ExportBarsInUniformRebarSetsAsSeparateIFCEntities" xml:space="preserve">
+    <value>將均勻鋼筋集中的鋼筋匯出為獨立的 IFC 實體</value>
+  </data>
+  <data name="ExportBarsInUniformRebarSetsAsSeparateIFCEntitiesToopTip" xml:space="preserve">
+    <value>使用此選項可將均勻鋼筋集中的鋼筋匯出為獨立的 IFC 實體。</value>
+  </data>
+  <data name="ParameterMapping" xml:space="preserve">
+    <value>參數對應</value>
+  </data>
+  <data name="PropertySetups" xml:space="preserve">
+    <value>屬性設定</value>
+  </data>
+  <data name="BaseQuantities" xml:space="preserve">
+    <value>基本數量</value>
+  </data>
+  <data name="IFCCommonPropertySets" xml:space="preserve">
+    <value>IFC 通用屬性集</value>
+  </data>
+  <data name="MaterialPropertySets" xml:space="preserve">
+    <value>材料屬性集</value>
+  </data>
+  <data name="ParameterMappingHelp" xml:space="preserve">
+    <value>如何修改 IFC 匯出參數對應設定？</value>
+  </data>
+  <data name="RevitPropertySets" xml:space="preserve">
+    <value>Revit 屬性集</value>
+  </data>
+  <data name="Schedules" xml:space="preserve">
+    <value>明細表</value>
+  </data>
+  <data name="ManageDefaultPropertySets" xml:space="preserve">
+    <value>管理預設屬性集</value>
+  </data>
+  <data name="UserDefinedPropertyMapping" xml:space="preserve">
+    <value>使用者自訂屬性對應</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>篩選</value>
+  </data>
+  <data name="IFCSchema" xml:space="preserve">
+    <value>IFC Schema</value>
+  </data>
+  <data name="CopyPropertySetTooltip" xml:space="preserve">
+    <value>複製屬性集</value>
+  </data>
+  <data name="CreateNewPropertySetTooltip" xml:space="preserve">
+    <value>建立新屬性集</value>
+  </data>
+  <data name="DeletePropertySetTooltip" xml:space="preserve">
+    <value>刪除屬性集</value>
+  </data>
+  <data name="ExportIFCPropertyMappingDialogName" xml:space="preserve">
+    <value>匯出 IFC 屬性對應設定</value>
+  </data>
+  <data name="ExportPropertySetsTooltip" xml:space="preserve">
+    <value>匯出屬性集</value>
+  </data>
+  <data name="ApplicableEntities" xml:space="preserve">
+    <value>適用實體</value>
+  </data>
+  <data name="IFCManageUserDefinedPropertySeets" xml:space="preserve">
+    <value>管理使用者自訂屬性集</value>
+  </data>
+  <data name="IFCProperty" xml:space="preserve">
+    <value>IFC 屬性</value>
+  </data>
+  <data name="IFCPropertyMappingSetupsFilter" xml:space="preserve">
+    <value>IFC Property Mapping Setups (*.txt)|*.txt</value>
+  </data>
+  <data name="ImportIFCPropertyMappingDialogName" xml:space="preserve">
+    <value>匯入 IFC 屬性對應設定</value>
+  </data>
+  <data name="ImportPropertySetsTooltip" xml:space="preserve">
+    <value>匯入屬性集</value>
+  </data>
+  <data name="InstanceOrType" xml:space="preserve">
+    <value>實例／類型</value>
+  </data>
+  <data name="PropertySetDetails" xml:space="preserve">
+    <value>屬性集詳細資料</value>
+  </data>
+  <data name="RevitProperty" xml:space="preserve">
+    <value>Revit 屬性</value>
+  </data>
+  <data name="UserDefinedHelp" xml:space="preserve">
+    <value>如何管理使用者自訂屬性集？</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="IFCSelectEntities" xml:space="preserve">
+    <value>選取實體</value>
+  </data>
+  <data name="SelectedPropertiesCheckboxTooltip" xml:space="preserve">
+    <value>已選取的屬性將會被匯出</value>
+  </data>
+  <data name="PropertySet" xml:space="preserve">
+    <value>屬性集</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>參數</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>套用</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="UseTypePropertiesInInstacePSets" xml:space="preserve">
+    <value>允許在實例屬性集中使用類型屬性</value>
+  </data>
+  <data name="IdentityMaterialParams" xml:space="preserve">
+    <value>識別</value>
+  </data>
+  <data name="PhysicalMaterialParams" xml:space="preserve">
+    <value>物理性質</value>
+  </data>
+  <data name="ThermalMaterialParams" xml:space="preserve">
+    <value>熱性能</value>
+  </data>
+  <data name="TypeToFilter" xml:space="preserve">
+    <value>輸入以篩選</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>類別</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>屬性</value>
+  </data>
+  <data name="SelectCategory" xml:space="preserve">
+    <value>選取類別以篩選屬性清單。</value>
+  </data>
+  <data name="ParameterMappingSettings" xml:space="preserve">
+    <value>參數對應設定</value>
+  </data>
+  <data name="ModifyIFCPropertyMapping" xml:space="preserve">
+    <value>修改 IFC 屬性對應範本</value>
+  </data>
+  <data name="IFCCopyPropertyTemplate" xml:space="preserve">
+    <value>複製屬性範本</value>
+  </data>
+  <data name="IFC4x3DTV" xml:space="preserve">
+    <value>IFC4.3 Design Transfer View [非官方]</value>
+  </data>
+  <data name="IFC4x3RV" xml:space="preserve">
+    <value>IFC4.3 Reference View</value>
+  </data>
+  <data name="IFCExportWarningCannotAddPropertyToReservedPropertySet" xml:space="preserve">
+    <value>無法將新屬性 {0} 加入保留的屬性集 {1}。</value>
+  </data>
+  <data name="IFCExportWarningCannotAddUserDefinedPropertySet" xml:space="preserve">
+    <value>使用者自訂屬性集 {0} 包含保留字串 {1}。屬性集名稱已延伸為 {2}。</value>
+  </data>
+  <data name="IFCExportWarningCannotModifyPropertySetProperty" xml:space="preserve">
+    <value>無法修改保留屬性集 {1} 中的屬性 {0}。</value>
+  </data>
+  <data name="ExportPropertyMappingFilter" xml:space="preserve">
+    <value>IFC Property Mapping Files (*.txt)|*.txt</value>
+  </data>
+  <data name="ImportPropertyMappingDialogName" xml:space="preserve">
+    <value>匯入 IFC 屬性對應</value>
+  </data>
+  <data name="IFCInvalidPropertyMappingFile" xml:space="preserve">
+    <value>嘗試載入的範本無效。</value>
+  </data>
+  <data name="ExportPropertyMappingDialogName" xml:space="preserve">
+    <value>匯出 IFC 屬性對應</value>
+  </data>
+  <data name="TemplateSelections" xml:space="preserve">
+    <value>項目選取</value>
+  </data>
+  <data name="SelectedPropertySetCheckboxTooltip" xml:space="preserve">
+    <value>已選取的屬性集將會被匯出</value>
+  </data>
+  <data name="String_Revit_CurrentLicenseStatus_MainContent" xml:space="preserve">
+    <value>檢視模式允許 Revit 的所有功能，但以下除外：任何形式的儲存或另存新檔、匯出或發佈已修改的專案、將專案匯出或發佈為包含可修改模型資料的格式、以及變更後列印專案。</value>
+  </data>
+  <data name="String_Revit_CurrentLicenseStatusTitle" xml:space="preserve">
+    <value>Revit 目前授權狀態</value>
+  </data>
+  <data name="String_Revit_CurrentLicenseStatus_MainInstruction" xml:space="preserve">
+    <value>{0}
+組建：{1}
+
+{0} 目前為檢視模式。</value>
+  </data>
+  <data name="DefaultMapping" xml:space="preserve">
+    <value>&lt;預設&gt;</value>
+  </data>
+  <data name="RenamePropertySetTooltip" xml:space="preserve">
+    <value>重新命名屬性集</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>資料類型</value>
+  </data>
+  <data name="SelectApplicableEntities" xml:space="preserve">
+    <value>選取適用實體</value>
+  </data>
+  <data name="ResetApplicableEntities" xml:space="preserve">
+    <value>重設適用實體</value>
+  </data>
+  <data name="UserDefinedPropertySets" xml:space="preserve">
+    <value>使用者自訂屬性集</value>
+  </data>
+  <data name="IFCNewPropertySet" xml:space="preserve">
+    <value>新增屬性集</value>
+  </data>
+  <data name="AddRow" xml:space="preserve">
+    <value>新增列</value>
+  </data>
+  <data name="SavePropertySetTooltip" xml:space="preserve">
+    <value>儲存屬性集的變更。</value>
+  </data>
+  <data name="PropertySetNameTooltip" xml:space="preserve">
+    <value>請輸入唯一的屬性集名稱。</value>
+  </data>
+  <data name="PropertySetName" xml:space="preserve">
+    <value>屬性集名稱</value>
+  </data>
+  <data name="FilterAllProperties" xml:space="preserve">
+    <value>所有屬性</value>
+  </data>
+  <data name="FilterInstanceProperties" xml:space="preserve">
+    <value>實例屬性</value>
+  </data>
+  <data name="FilterTypeProperties" xml:space="preserve">
+    <value>類型屬性</value>
+  </data>
+  <data name="IFCCreateNewTemplate" xml:space="preserve">
+    <value>建立新範本</value>
+  </data>
+  <data name="IFCCreateNewPropertySet" xml:space="preserve">
+    <value>建立新屬性集</value>
+  </data>
+  <data name="IFCCreateDuplicate" xml:space="preserve">
+    <value>建立複本</value>
+  </data>
+  <data name="NewTemplateDefaultName" xml:space="preserve">
+    <value>新範本</value>
+  </data>
+  <data name="RemoveRow" xml:space="preserve">
+    <value>移除列</value>
+  </data>
+  <data name="PropertyMapping" xml:space="preserve">
+    <value>屬性對應</value>
+  </data>
+  <data name="AddPropertySet" xml:space="preserve">
+    <value>新增屬性集</value>
+  </data>
+  <data name="ImportIFCUserDefinedMappingDialogName" xml:space="preserve">
+    <value>匯入 IFC 使用者自訂屬性集</value>
+  </data>
+  <data name="ExportIFCUserDefinedMappingDialogName" xml:space="preserve">
+    <value>匯出 IFC 使用者自訂屬性集</value>
+  </data>
+  <data name="IFCUserDefinedPropertySetsFilter" xml:space="preserve">
+    <value>IFC User-defined property sets files (*.txt)|*.txt</value>
+  </data>
+  <data name="QuantitySet" xml:space="preserve">
+    <value>數量集</value>
+  </data>
+  <data name="IFCAttributes" xml:space="preserve">
+    <value>IFC 屬性</value>
+  </data>
+  <data name="DeprecatedMark" xml:space="preserve">
+    <value>已棄用</value>
+  </data>
+  <data name="PropertyType" xml:space="preserve">
+    <value>屬性類型</value>
+  </data>
+  <data name="DefinedDataType" xml:space="preserve">
+    <value>已定義的資料類型</value>
+  </data>
+  <data name="ReservedPropertySetTooltip" xml:space="preserve">
+    <value>屬性集名稱不可以大寫或小寫形式的「pset」開頭。</value>
+  </data>
+  <data name="IFCNotificationMessageBox" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="IFCDefaultSetup" xml:space="preserve">
+    <value>&lt;預設&gt;</value>
+  </data>
+  <data name="IFCInvalidUserDefinedMappingFile" xml:space="preserve">
+    <value>此為無效的屬性對應檔案。</value>
+  </data>
+  <data name="PropertySetInvalidNameTooltip" xml:space="preserve">
+    <value>請輸入有效的屬性集名稱。</value>
+  </data>
+  <data name="TemplateNameInvalidTooltip" xml:space="preserve">
+    <value>請輸入有效的範本名稱。</value>
+  </data>
+  <data name="EmptyStatePropertySet" xml:space="preserve">
+    <value>請從其中一個設定中選取屬性集以挑選對應設定。</value>
+  </data>
+  <data name="EmptyStateSchedulePsets" xml:space="preserve">
+    <value>請新增一個或多個明細表以使用此選項。</value>
+  </data>
+  <data name="EmptyStateScheduleInfo" xml:space="preserve">
+    <value>此專案中沒有明細表。</value>
+  </data>
+  <data name="EmptyStateMaterialInfo" xml:space="preserve">
+    <value>此專案中沒有材料。</value>
+  </data>
+  <data name="EmptyStateMaterialPsets" xml:space="preserve">
+    <value>請新增一個或多個材料以使用此選項。</value>
+  </data>
+  <data name="FilterByCategory" xml:space="preserve">
+    <value>依類別篩選</value>
+  </data>
+  <data name="DefaultCategoryFilterTxt" xml:space="preserve">
+    <value>選取</value>
+  </data>
+  <data name="FilterBuiltinProperties" xml:space="preserve">
+    <value>內建屬性</value>
+  </data>
+  <data name="DefaultPropertyMappingSetups" xml:space="preserve">
+    <value>預設屬性對應設定</value>
+  </data>
+  <data name="ExportPropertySetTooltip" xml:space="preserve">
+    <value>匯出屬性集</value>
+  </data>
+  <data name="IFC4SchemaEntities" xml:space="preserve">
+    <value>IFC4 Schema 實體</value>
+  </data>
+  <data name="IFCCopyCategoryTemplate" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="IFCDeleteCategoryTemplate" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="IFCDeleteCategoryTemplateMessage" xml:space="preserve">
+    <value>要刪除 {0} 嗎？</value>
+  </data>
+  <data name="IFCNewCategoryTemplate" xml:space="preserve">
+    <value>新設定範本</value>
+  </data>
+  <data name="IFCRenameCategoryTemplate" xml:space="preserve">
+    <value>重新命名</value>
+  </data>
+  <data name="ImportPropertySetTooltip" xml:space="preserve">
+    <value>匯入屬性集</value>
+  </data>
+  <data name="UserDefinedPropertyMappingSetups" xml:space="preserve">
+    <value>使用者自訂屬性對應設定</value>
+  </data>
+</root>

@@ -51,6 +51,15 @@ namespace Revit.IFC.Export.Utility
    /// </summary>
    public class ExporterUtil
    {
+      private static IFCAnyHandle GetGlobalDirectionHandle(int dimensions, int index, bool positive)
+      {
+         IList<IFCAnyHandle> directionHandles = dimensions == 3 ?
+            ExporterIFCUtils.GetGlobal3DDirectionHandles(positive) :
+            ExporterIFCUtils.GetGlobal2DDirectionHandles(positive);
+
+         return directionHandles[index];
+      }
+
       private static ProjectPosition GetSafeProjectPosition(Document doc)
       {
          ProjectLocation projLoc = ExporterCacheManager.SelectedSiteProjectLocation;
@@ -264,13 +273,13 @@ namespace Revit.IFC.Export.Utility
                {
                   if (!MathUtil.IsAlmostZero(cleanList[(ii + 1) % 3]) || !MathUtil.IsAlmostZero(cleanList[(ii + 2) % 3]))
                      break;
-                  return ExporterIFCUtils.GetGlobal3DDirectionHandle(ii, true);
+                  return GetGlobalDirectionHandle(3, ii, true);
                }
                else if (MathUtil.IsAlmostEqual(cleanList[ii], -1.0))
                {
                   if (!MathUtil.IsAlmostZero(cleanList[(ii + 1) % 3]) || !MathUtil.IsAlmostZero(cleanList[(ii + 2) % 3]))
                      break;
-                  return ExporterIFCUtils.GetGlobal3DDirectionHandle(ii, false);
+                  return GetGlobalDirectionHandle(3, ii, false);
                }
             }
          }
@@ -282,13 +291,13 @@ namespace Revit.IFC.Export.Utility
                {
                   if (!MathUtil.IsAlmostZero(cleanList[1 - ii]))
                      break;
-                  return ExporterIFCUtils.GetGlobal2DDirectionHandle(ii, true);
+                  return GetGlobalDirectionHandle(2, ii, true);
                }
                else if (MathUtil.IsAlmostEqual(cleanList[ii], -1.0))
                {
                   if (!MathUtil.IsAlmostZero(cleanList[1 - ii]))
                      break;
-                  return ExporterIFCUtils.GetGlobal2DDirectionHandle(ii, false);
+                  return GetGlobalDirectionHandle(2, ii, false);
                }
             }
          }

@@ -5,7 +5,13 @@
 	  <Configurations>Debug;Release;Slow_Debug</Configurations>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
-    <BaseIntermediateOutputPath>$(SolutionDir)\Intermediate\$(Configuration)$(Platform)\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <RepoRevitAPIDir>$(SolutionDir)..\..\..\API\2026</RepoRevitAPIDir>
+    <InstalledRevitAPIDir>C:\Program Files\Autodesk\Revit 2026</InstalledRevitAPIDir>
+    <RevitAPIDir Condition=" '$(RevitAPIDir)' == '' and Exists('$(RepoRevitAPIDir)\RevitAPI.dll') ">$(RepoRevitAPIDir)</RevitAPIDir>
+    <RevitAPIDir Condition=" '$(RevitAPIDir)' == '' and Exists('$(InstalledRevitAPIDir)\RevitAPI.dll') ">$(InstalledRevitAPIDir)</RevitAPIDir>
+    <RevitExePath Condition=" '$(RevitExePath)' == '' and '$(RevitAPIDir)' != '' ">$(RevitAPIDir)</RevitExePath>
+    <RevitIntermediateRoot Condition=" '$(RevitIntermediateRoot)' == '' ">$(SolutionDir)Intermediate</RevitIntermediateRoot>
+    <BaseIntermediateOutputPath>$(RevitIntermediateRoot)\$(Configuration)$(Platform)\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
     <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
 	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>

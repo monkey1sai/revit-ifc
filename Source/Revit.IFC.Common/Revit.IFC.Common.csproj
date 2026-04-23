@@ -17,10 +17,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>..\..\..\API\2026\RevitAPI.dll</HintPath>
+      <HintPath>$(RevitAPIDir)\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIIFC">
-      <HintPath>..\..\..\API\2026\RevitAPIIFC.dll</HintPath>
+      <HintPath>$(RevitAPIDir)\RevitAPIIFC.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

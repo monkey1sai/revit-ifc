@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BridgeArched" xml:space="preserve">
+    <value>拱橋 (ARCHED)</value>
+  </data>
+  <data name="ConicalFaceProfileCurve" xml:space="preserve">
+    <value>圓錐面輪廓曲線</value>
+  </data>
+  <data name="IFCExportComplete" xml:space="preserve">
+    <value>IFC 匯出完成</value>
+  </data>
+  <data name="IFCExportWarningCannotAddPropertyToReservedPropertySet" xml:space="preserve">
+    <value>無法將新屬性 {0} 加入保留的屬性集 {1}。</value>
+  </data>
+  <data name="IFCExportWarningCannotAddUserDefinedPropertySet" xml:space="preserve">
+    <value>使用者自訂屬性集 {0} 包含保留字串 {1}。屬性集名稱已延伸為 {2}。</value>
+  </data>
+  <data name="IFCProcessingAreaSchemes" xml:space="preserve">
+    <value>IFC 匯出：處理面積方案：{0} / {1}（Area Scheme ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingBeamSystems" xml:space="preserve">
+    <value>IFC 匯出：處理梁系統：{0} / {1}（Beam System ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingExportZones" xml:space="preserve">
+    <value>IFC 匯出：處理匯出區域：{0} / {1}（Export Zone ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingFabricAreas" xml:space="preserve">
+    <value>IFC 匯出：處理鋼筋網範圍：{0} / {1}（Fabric Area ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingGroups" xml:space="preserve">
+    <value>IFC 匯出：處理群組：{0} / {1}（Group ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingNonSpatialElements" xml:space="preserve">
+    <value>IFC 匯出：處理非空間元素：{0} / {1}（Element ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingRailings" xml:space="preserve">
+    <value>IFC 匯出：處理欄杆：{0} / {1}（Railing ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingSpatialElements" xml:space="preserve">
+    <value>IFC 匯出：處理空間元素：{0} / {1}（Element ID：{2}）</value>
+  </data>
+  <data name="IFCProcessingTrusses" xml:space="preserve">
+    <value>IFC 匯出：處理桁架：{0} / {1}（Truss ID：{2}）</value>
+  </data>
+  <data name="PropertySetTypeSuffix" xml:space="preserve">
+    <value>(Type)</value>
+  </data>
+  <data name="RevolvedFaceProfileCurve" xml:space="preserve">
+    <value>迴轉面輪廓曲線</value>
+  </data>
+  <data name="RuledFaceProfileCurve" xml:space="preserve">
+    <value>直紋面輪廓曲線</value>
+  </data>
+  <data name="Shape" xml:space="preserve">
+    <value>形狀</value>
+  </data>
+  <data name="BridgeCableStayed" xml:space="preserve">
+    <value>斜張橋 (CABLESTAYED)</value>
+  </data>
+  <data name="BridgeCantilever" xml:space="preserve">
+    <value>懸臂橋 (CANTILEVER)</value>
+  </data>
+  <data name="BridgeCulvert" xml:space="preserve">
+    <value>涵洞 (CULVERT)</value>
+  </data>
+  <data name="BridgeFramework" xml:space="preserve">
+    <value>剛構橋 (FRAMEWORK)</value>
+  </data>
+  <data name="BridgeGirder" xml:space="preserve">
+    <value>梁橋 (GIRDER)</value>
+  </data>
+  <data name="BridgeSuspension" xml:space="preserve">
+    <value>吊橋 (SUSPENSION)</value>
+  </data>
+  <data name="BridgeTruss" xml:space="preserve">
+    <value>桁架橋 (TRUSS)</value>
+  </data>
+  <data name="DefaultPhase" xml:space="preserve">
+    <value>預設匯出階段</value>
+  </data>
+  <data name="DeleteOldConfiguration" xml:space="preserve">
+    <value>刪除舊的設定</value>
+  </data>
+  <data name="DeleteOldSetups" xml:space="preserve">
+    <value>刪除舊的 IFC 匯出設定</value>
+  </data>
+  <data name="ER_Architecture" xml:space="preserve">
+    <value>建築參考交換 (Architectural Reference Exchange)</value>
+  </data>
+  <data name="ER_ArchitectureShort" xml:space="preserve">
+    <value>建築</value>
+  </data>
+  <data name="ER_BuildingService" xml:space="preserve">
+    <value>機電參考交換 (MEP Reference Exchange)</value>
+  </data>
+  <data name="ER_BuildingServiceShort" xml:space="preserve">
+    <value>機電</value>
+  </data>
+  <data name="ER_Structural" xml:space="preserve">
+    <value>結構參考交換 (Structural Reference Exchange)</value>
+  </data>
+  <data name="ER_StructuralShort" xml:space="preserve">
+    <value>結構</value>
+  </data>
+  <data name="FacilityBridge" xml:space="preserve">
+    <value>橋梁 (IfcBridge)</value>
+  </data>
+  <data name="FacilityBuilding" xml:space="preserve">
+    <value>建築物 (IfcBuilding)</value>
+  </data>
+  <data name="FacilityMarineFacility" xml:space="preserve">
+    <value>海事設施 (IfcMarineFacility)</value>
+  </data>
+  <data name="FacilityRailway" xml:space="preserve">
+    <value>鐵路 (IfcRailway)</value>
+  </data>
+  <data name="FacilityRoad" xml:space="preserve">
+    <value>道路 (IfcRoad)</value>
+  </data>
+  <data name="IFC2x3FM" xml:space="preserve">
+    <value>IFC2x3 COBie 2.4 Design Deliverable View</value>
+  </data>
+  <data name="IFC4" xml:space="preserve">
+    <value>IFC4 通用版</value>
+  </data>
+  <data name="IFC4DTV" xml:space="preserve">
+    <value>IFC4 Design Transfer View [非官方]</value>
+  </data>
+  <data name="IFC4RV" xml:space="preserve">
+    <value>IFC4 Reference View</value>
+  </data>
+  <data name="IFC4x3DTV" xml:space="preserve">
+    <value>IFC4.3 Design Transfer View [非官方]</value>
+  </data>
+  <data name="IFC4x3RV" xml:space="preserve">
+    <value>IFC4.3 Reference View</value>
+  </data>
+  <data name="IFCMVD2x3CV2" xml:space="preserve">
+    <value>IFC 2x3 Coordination View 2.0</value>
+  </data>
+  <data name="IFCMVDFMHandOver" xml:space="preserve">
+    <value>IFC 2x3 Basic FM Handover View</value>
+  </data>
+  <data name="IFCMVDGSA" xml:space="preserve">
+    <value>IFC 2x3 GSA Concept Design BIM 2010</value>
+  </data>
+  <data name="IFCSG" xml:space="preserve">
+    <value>IFC+SG Regulatory Requirements View</value>
+  </data>
+  <data name="IFCVersion2x2" xml:space="preserve">
+    <value>IFC 2x2 Coordination View</value>
+  </data>
+  <data name="IFCVersion2x3" xml:space="preserve">
+    <value>IFC 2x3 Coordination View</value>
+  </data>
+  <data name="IFCVersion4x3" xml:space="preserve">
+    <value>IFC4x3</value>
+  </data>
+  <data name="IFCVersionUnrecognized" xml:space="preserve">
+    <value>無法辨識的 IFC 版本</value>
+  </data>
+  <data name="InSessionConfiguration" xml:space="preserve">
+    <value>&lt;工作階段設定&gt;</value>
+  </data>
+  <data name="MarineFacilityBarrierBeach" xml:space="preserve">
+    <value>海堤灘地 (BARRIERBEACH)</value>
+  </data>
+  <data name="MarineFacilityBreakwater" xml:space="preserve">
+    <value>防波堤 (BREAKWATER)</value>
+  </data>
+  <data name="MarineFacilityCanal" xml:space="preserve">
+    <value>運河 (CANAL)</value>
+  </data>
+  <data name="MarineFacilityDryDock" xml:space="preserve">
+    <value>乾塢 (DRYDOCK)</value>
+  </data>
+  <data name="MarineFacilityFloatingDock" xml:space="preserve">
+    <value>浮塢 (FLOATINGDOCK)</value>
+  </data>
+  <data name="MarineFacilityHydrolift" xml:space="preserve">
+    <value>船舶升降機 (HYDROLIFT)</value>
+  </data>
+  <data name="MarineFacilityJetty" xml:space="preserve">
+    <value>突堤碼頭 (JETTY)</value>
+  </data>
+  <data name="MarineFacilityLaunchRecovery" xml:space="preserve">
+    <value>下水回收設施 (LAUNCHRECOVERYFACILITY)</value>
+  </data>
+  <data name="MarineFacilityMarineDefense" xml:space="preserve">
+    <value>海岸防護 (MARINEDEFENCE)</value>
+  </data>
+  <data name="MarineFacilityNavigationalChannel" xml:space="preserve">
+    <value>航道 (NAVIGATIONALCHANNEL)</value>
+  </data>
+  <data name="MarineFacilityPort" xml:space="preserve">
+    <value>港口 (PORT)</value>
+  </data>
+  <data name="MarineFacilityQuay" xml:space="preserve">
+    <value>碼頭 (QUAY)</value>
+  </data>
+  <data name="MarineFacilityRevetment" xml:space="preserve">
+    <value>護岸 (REVETMENT)</value>
+  </data>
+  <data name="MarineFacilityShipLift" xml:space="preserve">
+    <value>船舶升降機 (SHIPLIFT)</value>
+  </data>
+  <data name="MarineFacilityShipLock" xml:space="preserve">
+    <value>船閘 (SHIPLOCK)</value>
+  </data>
+  <data name="MarineFacilityShipyard" xml:space="preserve">
+    <value>造船廠 (SHIPYARD)</value>
+  </data>
+  <data name="MarineFacilitySlipway" xml:space="preserve">
+    <value>船台 (SLIPWAY)</value>
+  </data>
+  <data name="MarineFacilityWaterway" xml:space="preserve">
+    <value>水道 (WATERWAY)</value>
+  </data>
+  <data name="MarineFacilityWaterwayShiplift" xml:space="preserve">
+    <value>水道船舶升降機 (WATERWAYSHIPLIFT)</value>
+  </data>
+  <data name="NotDefined" xml:space="preserve">
+    <value>未定義</value>
+  </data>
+  <data name="SaveConfigurationChanges" xml:space="preserve">
+    <value>儲存 IFC 匯出設定變更</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="UpdateExportSetups" xml:space="preserve">
+    <value>更新 IFC 匯出設定</value>
+  </data>
+  <data name="UserDefined" xml:space="preserve">
+    <value>使用者自訂</value>
+  </data>
+</root>

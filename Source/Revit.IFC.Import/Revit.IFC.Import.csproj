@@ -16,7 +16,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
+  <ItemGroup Condition=" '$(DisableRestoreProjectGraph)' != 'true' ">
     <ProjectReference Include="..\Revit.IFC.Common\Revit.IFC.Common.csproj">
       <Private>False</Private>
       <ExcludeAssets>All</ExcludeAssets>
@@ -34,16 +34,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-TW.resx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="SharpZipLib" Version="1.4.2" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>..\..\..\API\2026\RevitAPI.dll</HintPath>
+      <HintPath>$(RevitAPIDir)\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIIFC">
-      <HintPath>..\..\..\API\2026\RevitAPIIFC.dll</HintPath>
+      <HintPath>$(RevitAPIDir)\RevitAPIIFC.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
