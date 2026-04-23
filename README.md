@@ -69,6 +69,63 @@ Links to multilingual versions of the Revit IFC Manual V2.0 can be found here: [
 6. **Trigger the Code Path**  
    - Perform actions in Revit to execute the code where breakpoints are set, such as exporting or linking an IFC file.
    
+### Deploying a Revit 2026 zh-TW Build
+1. **Prepare the Build Environment**
+   - This repository is pinned to `.NET SDK 8.0.420` via `global.json`.
+   - Revit API references are resolved from either `..\..\..\API\2026` or the installed fallback path:
+     ```
+     C:\Program Files\Autodesk\Revit 2026
+     ```
+
+2. **Build the Release x64 Configuration**
+   - Build the solution in `Release|x64`.
+   - Example:
+     ```powershell
+     dotnet msbuild Revit.IFC.sln /t:Build /p:Configuration=Release /p:Platform=x64
+     ```
+
+3. **Deploy the Build Output to the 2026 Bundle**
+   - The target bundle path is:
+     ```
+     C:\ProgramData\Autodesk\ApplicationPlugins\IFC 2026.bundle\Contents\2026
+     ```
+   - `IFCExporterUIOverride.csproj` writes its main DLL directly to the bundle path.
+   - Copy the remaining binaries and zh-TW satellite resources after the build:
+     ```powershell
+     $bundle = 'C:\ProgramData\Autodesk\ApplicationPlugins\IFC 2026.bundle\Contents\2026'
+     $bundleZh = Join-Path $bundle 'zh-TW'
+     New-Item -ItemType Directory -Path $bundleZh -Force | Out-Null
+
+     Copy-Item .\Source\Revit.IFC.Common\bin\x64\Release\Revit.IFC.Common.dll $bundle -Force
+     Copy-Item .\Source\Revit.IFC.Export\bin\x64\Release\Revit.IFC.Export.dll $bundle -Force
+     Copy-Item .\Source\Revit.IFC.Import.Core\bin\x64\Release\Revit.IFC.Import.Core.dll $bundle -Force
+     Copy-Item .\Source\Revit.IFC.Import\bin\x64\Release\Revit.IFC.Import.dll $bundle -Force
+
+     Copy-Item .\Source\Revit.IFC.Export\bin\x64\Release\zh-TW\Revit.IFC.Export.resources.dll $bundleZh -Force
+     Copy-Item .\Source\Revit.IFC.Import\bin\x64\Release\zh-TW\Revit.IFC.Import.resources.dll $bundleZh -Force
+     ```
+
+4. **Verify the Bundle Layout**
+   - Confirm that these files exist in the bundle root:
+     - `Revit.IFC.Common.dll`
+     - `Revit.IFC.Export.dll`
+     - `Revit.IFC.Import.Core.dll`
+     - `Revit.IFC.Import.dll`
+     - `IFCExporterUIOverride.dll`
+   - Confirm that these files exist in `...\Contents\2026\zh-TW`:
+     - `IFCExporterUIOverride.resources.dll`
+     - `Revit.IFC.Export.resources.dll`
+     - `Revit.IFC.Import.resources.dll`
+   - Confirm that `Revit.IFC.addin` still points to:
+     - `.\IFCExporterUIOverride.dll`
+     - `.\Revit.IFC.Export.dll`
+     - `.\Revit.IFC.Import.dll`
+
+5. **Verify the zh-TW UI in Revit**
+   - Launch Revit 2026 with a Traditional Chinese UI environment.
+   - Open the IFC export dialog and confirm that the exporter UI strings are loaded from the `zh-TW` resources.
+   - Trigger an IFC import or link operation and confirm that the importer strings are loaded from the `zh-TW` resources.
+
 ## Issue Submission Templates
 When submitting an Issue, users will be asked to choose between the following submission templates:
 - **Problem Report [PR]**: _is a "bug", error, or issue found during the use of any aspect of the IFC functionality._

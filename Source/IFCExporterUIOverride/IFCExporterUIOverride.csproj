@@ -7,6 +7,10 @@
     <IFCExporterUIAssemblyName>$(MSBuildProjectName)</IFCExporterUIAssemblyName>
     <AssemblyName>$(IFCExporterUIAssemblyName)</AssemblyName>
     <AssociatedParentPath>$(MSBuildProjectName)\SubFolderToPreventLoadingDll</AssociatedParentPath>
+    <BaseOutputPath>C:\ProgramData\Autodesk\ApplicationPlugins\IFC 2026.bundle\Contents\2026\</BaseOutputPath>
+    <OutputPath>$(BaseOutputPath)</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <IncludePackageReferencesDuringMarkupCompilation>false</IncludePackageReferencesDuringMarkupCompilation>
@@ -103,7 +107,6 @@
     <PostBuildEvent>
 $(ProjectDir)CreateAddinFile.bat $(OutDir)$(TargetName).addin $(AssemblyName).dll $(AddinGUID)
 </PostBuildEvent>
-    <BaseOutputPath>C:\ProgramData\Autodesk\ApplicationPlugins\IFC 2026.bundle\Contents\2026</BaseOutputPath>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -137,19 +140,19 @@ $(ProjectDir)CreateAddinFile.bat $(OutDir)$(TargetName).addin $(AssemblyName).dl
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
-  <ItemGroup>
+  <ItemGroup Condition=" '$(DisableRestoreProjectGraph)' != 'true' ">
     <ProjectReference Include="..\Revit.IFC.Common\Revit.IFC.Common.csproj" />
     <ProjectReference Include="..\Revit.IFC.Export\Revit.IFC.Export.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Autodesk.UI.Windows">
-      <HintPath>..\..\..\API\2026\Autodesk.UI.Windows.dll</HintPath>
+      <HintPath>$(RevitExePath)\Autodesk.UI.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Weave.Wpf">
-      <HintPath>..\..\..\API\2026\Autodesk.Weave.Wpf.dll</HintPath>
+      <HintPath>$(RevitExePath)\Autodesk.Weave.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="UserInterfaceUtility">
-      <HintPath>..\..\..\API\2026\UserInterfaceUtility.dll</HintPath>
+      <HintPath>$(RevitExePath)\UserInterfaceUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

@@ -18,7 +18,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
+  <ItemGroup Condition=" '$(DisableRestoreProjectGraph)' != 'true' ">
     <ProjectReference Include="..\Revit.IFC.Common\Revit.IFC.Common.csproj">
       <Private>False</Private>
       <ExcludeAssets>All</ExcludeAssets>
@@ -73,13 +73,13 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>..\..\..\API\2026\RevitAPI.dll</HintPath>
+      <HintPath>$(RevitAPIDir)\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIIFC">
-      <HintPath>..\..\..\API\2026\RevitAPIIFC.dll</HintPath>
+      <HintPath>$(RevitAPIDir)\RevitAPIIFC.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>..\..\..\API\2026\RevitAPIUI.dll</HintPath>
+      <HintPath>$(RevitAPIDir)\RevitAPIUI.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
