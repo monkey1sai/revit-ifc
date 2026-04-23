@@ -9,6 +9,8 @@ _An archive of the original SourceForge forums can be found [here](https://sourc
 ## Releases
 The latest addon downloads and Release Notes can be found here: [Releases](https://github.com/Autodesk/revit-ifc/releases). New versions of the addon, from 2023 and later, should also be available in the Autodesk Desktop App (ADA) as per your user and license settings.
 
+Additional Traditional Chinese workflow notes for zh-TW branch sync, bundle deployment, and installer/package release can be found here: [docs/zh-TW-release-workflow.md](docs/zh-TW-release-workflow.md)
+
 ## Help
 Links to multilingual versions of the Revit IFC Manual V2.0 can be found here: [Revit Blog](https://blogs.autodesk.com/revit/2022/02/09/now-available-revit-ifc-manual-version-2-0/)
 ### Product Documentation (English)
